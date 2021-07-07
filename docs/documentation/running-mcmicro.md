@@ -37,7 +37,6 @@ exemplar-001
 ├── segmentation/
 ├── quantification/
 └── qc/
-
 ```
 
 Visual inspection of quality control (`qc/`) files is recommended after completing the run. Depending on the modules used, directories `coreo/`, `unmicst/` and `s3seg/` may contain `.tif` images for inspection. More details on output files and quality control can be found in [Directory Structure](dir.html).
