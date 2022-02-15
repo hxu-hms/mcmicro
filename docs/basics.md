@@ -6,8 +6,7 @@ nav_order: 5
 
 # Microscopy Basics
 
-Biomedical microscopy comprises an increasing diversity of imaging methods that differ in how a sample is
-illuminated and data collected. Classical methods such as transmission light microscopy and epifluorescence
+
 microscopy have been joined more recently by structured illumination<sup>1</sup> and light-sheet microscopy<sup>2</sup>, as well as by
 non-optical methods that generate images using mass spectrometers<sup>3</sup>. What is common to all of these methods
 is that they generate data that can be represented as a series of intensity values on a two-dimensional raster –
