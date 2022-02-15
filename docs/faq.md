@@ -19,6 +19,10 @@ nav_order: 4
 
 ## Pipeline execution
 
+### Q: How do I use MCMICRO
+
+blah blah blah
+
 ### Q: How do I resume a pipeline run that halted partway?
 
 The intermediate files in the `work/` directory allow you to restart a pipeline partway, without re-running everything from scratch. For example, consider the following scenario on O2:
@@ -69,7 +73,7 @@ nextflow clean -f -but last
 
 ## Pre-processing
 
-### Q: How does mcmicro handle multi-file formats such as `.xdce`?
+### Q: Hows mcmicro handle multi-file formats such as `.xdce`?
 
 A: Registration and illumination correction modules in mcmicro are [Bio-Formats compatible](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html). Place all files into the `raw/` subdirectory, as described in [Directory Structure](directory-structure.html), and mcmicro modules will correctly identify and use the relevant ones.
 
